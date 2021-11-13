@@ -1,9 +1,9 @@
 body {
-    margin-right: auto;
+    margin-right: auto ;
     text-align: justify;
     line-height: 1.5;
-    font-family: Helvetica;
-    background-color: #FFF8E5;
+    font-family: arial;
+    background-color: hsl(118, 100%, 95%);
     max-width: 800px;
     margin-left: auto;
 }
@@ -23,4 +23,14 @@ h2 {
 .bordes-locos {
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+blockquote{
+    padding: 3px 10PX;
+    border: powderblue 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+html{
+    background-color: lightgray;
+    background: url("gota.png");
 }
